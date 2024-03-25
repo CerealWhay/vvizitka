@@ -1,0 +1,31 @@
+@use "./scss.vars" as vars;
+
+@mixin sm-max {
+  @media (max-width: vars.$sm) {
+    @content;
+  }
+}
+
+@mixin md-max {
+  @media (max-width: vars.$md) {
+    @content;
+  }
+}
+
+@mixin lg-max {
+  @media (max-width: vars.$lg) {
+    @content;
+  }
+}
+
+@mixin xl-max {
+  @media (max-width: vars.$xl) {
+    @content;
+  }
+}
+
+@mixin xxl-max {
+  @media (max-width: vars.$xxl) {
+    @content;
+  }
+}
