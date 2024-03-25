@@ -9,22 +9,22 @@ const socials = ref([
   {
     code: "tg",
     link: "https://t.me/preparabola",
-    icon: "./src/assets/icons/telegram-outline.svg"
+    icon: "./icons/telegram-outline.svg"
   },
   {
     code: "gmail",
     link: "mailto:cerealwhay@gmail.com",
-    icon: "./src/assets/icons/mail-outline.svg"
+    icon: "./icons/mail-outline.svg"
   },
   {
     code: "hh",
     link: "https://spb.hh.ru/resume/728c07c0ff0788716c0039ed1f57624470724a",
-    icon: "./src/assets/icons/hh.svg"
+    icon: "./icons/hh.svg"
   },
   {
     code: "github",
     link: "https://github.com/CerealWhay",
-    icon: "./src/assets/icons/github-outline.svg"
+    icon: "./icons/github-outline.svg"
   },
 ])
 </script>
