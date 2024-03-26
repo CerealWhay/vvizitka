@@ -20,7 +20,7 @@ const isMobile = computed(() => width.value <= 768)
   <div class="app">
     <AppDecoration />
     <div class="app__container">
-      <BorderedWrapper class="app__wrapper" is-top is-right is-left is-bottom>
+      <BorderedWrapper class="app__wrapper">
         <BorderedWrapper class="app__main" is-bottom>
           <MainContent />
         </BorderedWrapper>
@@ -55,6 +55,7 @@ const isMobile = computed(() => width.value <= 768)
   }
 
   &__wrapper {
+    border-radius: var(--global-gap);
     background: var(--primary-50);
     height: 100%;
     display: grid;
